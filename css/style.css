@@ -13,7 +13,6 @@ body {
 header {
     background-color: #add8e6;
     padding-top: 1rem;
-    padding-bottom: 4px;
 }
 
 header nav {
@@ -46,7 +45,7 @@ footer {
 }
 
 .bg-grey {
-    background-color: #d3d3d3;
+    background-color: #F6F6F6;
 }
 
 .nav-links,
@@ -86,49 +85,58 @@ footer {
     background-color: #00008b;
     padding: 220px 0;
     background-image: url(../img/jumbo.png);
-    background-size: cover;
+    background-size:cover;
 }
 
 .hero-section .container {
     color: white;
-    max-width: 680px;
+    max-width: 800px;
     text-align: center;
 }
 
 h1 {
     padding-bottom: 2rem;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
 }
 
 .hero-section p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 2rem;
 }
 
 .hero-section button {
     padding: .7rem .9rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 1rem;
 }
 
 .row {
     display: flex;
+    padding: 70px 0;
 }
 
-.col-large,
-.col-small {
-    border: 1px dashed black;
-    min-height: 300px;
-}
 
 .col-large {
-    width: 60%;
-    background-color: #1e90ff;
+    width: 70%;
+}
+
+.col-large img {
+    max-width: 100%;
 }
 
 .col-small {
-    width: 40%;
-    background-color: #ffc0cb;
+    width: 30%;
+}
+
+.col-small h2 {
+    font-size: 2.3rem;
+    padding-top: 32px;
+    padding-bottom: 20px;
+}
+
+.col-small p {
+    font-size: 1.1rem;
+    line-height: 2rem;
 }
 
 .box-green {
