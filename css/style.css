@@ -48,6 +48,24 @@ footer {
     background-color: #F6F6F6;
 }
 
+/* button */
+
+.btn {
+    border-radius: 20px;
+    padding: .5rem .8rem;
+    border: none;
+}
+
+.btn-black {
+    color: white;
+    background-color: #23272A;
+}
+
+.btn-violet {
+    color: white;
+    background-color: #7289DA; 
+}
+
 .nav-links,
 .nav-logo,
 .nav-login {
@@ -128,22 +146,28 @@ h1 {
     width: 30%;
 }
 
-.col-small h2 {
+main h2 {
     font-size: 2.3rem;
     padding-top: 32px;
     padding-bottom: 20px;
 }
 
-.col-small p {
+main p {
     font-size: 1.1rem;
     line-height: 2rem;
 }
 
+/* section 4 */
 .box-green {
-    border: 1px dashed black;
-    min-height: 500px;
-    background-color: #228b22;
+    text-align: center;
 }
+
+.box-green div {
+    background-image: url(../img/stars.svg);
+}
+
+
+/* footer */
 
 footer .col {
     border: 1px dashed white;
@@ -177,13 +201,3 @@ footer hr {
     background-color: #FFB6C1;
 }
 
-.btn {
-    border-radius: 20px;
-    padding: .5rem .8rem;
-    border: none;
-}
-
-.btn-black {
-    color: white;
-    background-color: #23272A;
-}
